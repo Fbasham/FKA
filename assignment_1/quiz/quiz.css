@@ -1,0 +1,40 @@
+* {
+  background: #123456;
+  color: #fff;
+  font-family: monospace;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+input {
+  margin-right: 10px;
+}
+
+button {
+  border: none;
+  outline: none;
+  background: coral;
+  border-radius: 100px;
+  width: 75px;
+  height: 25px;
+  transition: 300ms ease;
+}
+
+button:hover {
+  background: #111;
+  font-size: 1.1rem;
+}

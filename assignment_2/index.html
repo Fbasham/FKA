@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Javascript 101</title>
+  </head>
+  <body>
+    <h1>Create Dynamic Webpages with JavaScript</h1>
+
+    <section>
+      <h2>Objectives</h2>
+      <div class="objectives">
+        <ul>
+          <li><em>Identify </em>what JavaScript is</li>
+          <li><em>State </em>what JavaScript is used for</li>
+          <li><em>Write </em> a script to interact with a webpage</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2 id="motiv">Motivation</h2>
+      <div class="motivation">
+        <div class="card">
+          <div id="q1">1</div>
+          <div id="a1">Interact With</div>
+        </div>
+        <div class="card">
+          <div id="q2">2</div>
+          <div id="a2" class="active">Reflect Change</div>
+        </div>
+      </div>
+
+      <div class="button-control">
+        <button>fetch me a joke</button>
+        <button id="close">&times;</button>
+      </div>
+      <div class="joke">
+        <div>
+          <div style="font-size: 1.1rem">
+            <em>Prompt:&nbsp;&nbsp;&nbsp;</em>
+          </div>
+          <div id="jokeSetup"></div>
+        </div>
+        <div>
+          <div style="font-size: 1.1rem"><em>Delivery:&nbsp;&nbsp;</em></div>
+          <div id="jokeDelivery"></div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div>&copy; Frank Basham</div>
+      <div class="next"><a href="demo.html">&#8594;</a></div>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>

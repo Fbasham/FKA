@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="quiz.css" />
+    <title>CSS Quiz</title>
+  </head>
+  <body>
+    <h1>Quiz</h1>
+    <div class="container">
+      <div class="question">
+        <p>1. What CSS property is used to change the background color?</p>
+        <input type="radio" name="background" id="background" />background<br />
+        <input
+          type="radio"
+          name="background"
+          id="font-family"
+        />font-family<br />
+        <input type="radio" name="background" id="color" />color <br />
+      </div>
+      <div class="question">
+        <p>2. What CSS property is used to change the font color?</p>
+        <input type="radio" name="color" id="font-family" />font-family<br />
+        <input type="radio" name="color" id="color" />color<br />
+        <input type="radio" name="color" id="background" />background <br />
+      </div>
+      <div class="question">
+        <p>3. What CSS property is used to change the font style?</p>
+        <input type="radio" name="font-family" id="color" />color<br />
+        <input
+          type="radio"
+          name="font-family"
+          id="font-family"
+        />font-family<br />
+        <input type="radio" name="font-family" id="background" />background
+        <br />
+      </div>
+    </div>
+
+    <button onclick="grade()">submit</button>
+
+    <div class="result"></div>
+
+    <script src="quiz.js"></script>
+  </body>
+</html>
