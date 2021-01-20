@@ -4,5 +4,4 @@ assetnum in (select assetnum from sparepart where itemnum is not null)
 
 purchaseprice > 1000
 
-
 ccg_currentlife > 50
