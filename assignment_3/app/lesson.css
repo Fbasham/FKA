@@ -43,6 +43,11 @@ h2 {
 a {
   text-decoration: none;
   color: #fff;
+  transition: 200ms ease;
+}
+
+a:hover {
+  transform: scale(1.5);
 }
 
 .code {
@@ -55,8 +60,27 @@ a {
   color: rgb(201, 6, 201);
 }
 
-img {
-  width: 100%;
+.bulb {
+  text-align: center;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin: 0.5rem 0 0.5rem 0;
+  transition: 200ms ease;
+}
+
+.bulb:hover {
+  background: papayawhip;
+  border-radius: 50px;
+  width: 2rem;
+  height: 2rem;
+}
+
+.sample {
+  display: none;
+}
+
+.active {
+  display: block;
 }
 
 footer {

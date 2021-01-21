@@ -63,7 +63,12 @@ textarea {
   font-size: 1.5rem;
   font-weight: bolder;
   width: 80%;
-  text-decoration: none !important;
+  padding: 1rem 0 0 1rem;
+}
+
+.number {
+  font-size: 1.2rem;
+  color: yellow;
 }
 
 .plum {
@@ -83,13 +88,14 @@ textarea {
 footer {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 100%;
   font-size: 0.6rem;
 }
 
 .arrow {
   cursor: pointer;
-  font-size: 1.1rem;
+  font-size: 2rem;
   opacity: 0.8;
 }
 

@@ -23,6 +23,11 @@
         <pre>
 column <span class=keyword>in</span> (<span class=keyword>select</span> column <span class=keyword>from</span> table <span class=keyword>where</span> condition)</pre>
       </div>
+      <div class="bulb">💡</div>
+      <div id="v0" class="sample code">
+        <pre>
+assetnum <span class=keyword>in</span> (<span class=keyword>select</span> assetnum <span class=keyword>from</span> sparepart <span class=keyword>where </span>itemnum is not null)</pre>
+      </div>
     </section>
     <section>
       <h2>Same Table Search:</h2>
@@ -30,10 +35,15 @@ column <span class=keyword>in</span> (<span class=keyword>select</span> column <
         <pre>
 column <span class=keyword>condition</span></pre>
       </div>
+      <div class="bulb">💡</div>
+      <div id="v1" class="sample code">
+        <pre>purchaseprice > 1000</pre>
+      </div>
     </section>
     <footer>
       <span>&copy; Frank Basham</span>
       <a href="quiz.html"><span class="arrow">&#10230;</span></a>
     </footer>
+    <script src="lesson.js"></script>
   </body>
 </html>
